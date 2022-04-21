@@ -29,6 +29,9 @@ class PickActivity : AppCompatActivity() {
                     id = "rabbit"
                 }
             }
+            
+            //when을 바로 변수에 대입하는 것은 코틀린 코드 방식
+            //when의 return값을 반환시킬 수 있음
         }
 
         returnPick.setOnClickListener {

@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         when(item.itemId) {
             R.id.cal -> {
                 var intent = Intent(applicationContext, CalcActivity::class.java)
-                startActivity(intent)
+                startActivity(intent)       //이건 결과 받는 게 없으니까 Result로 넘겨주지 않아도 됨
             }
             R.id.pick -> {
                 intent = Intent(applicationContext, PickActivity::class.java)
